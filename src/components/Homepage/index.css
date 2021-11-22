@@ -66,6 +66,7 @@
   .homepage-container {
     flex-direction: column-reverse;
     align-items: center;
+    padding-top: 30px;
   }
   .homepage-left-container {
     padding-top: 30px;
