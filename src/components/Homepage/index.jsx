@@ -9,7 +9,7 @@ function Homepage() {
       <div className="homepage-left-container">
         <h1 className="homepage-head">Best place to start your journey</h1>
         <p className="homepage-para">
-          Enjoy a hand-picked free leaning resources of the technologies
+          Enjoy free leaning resources of the technologies. 🔥
         </p>
         <button onClick={() => navigate("/resources")} className="homepage-btn">
           Get Started
