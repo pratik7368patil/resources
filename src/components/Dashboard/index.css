@@ -36,3 +36,34 @@
 .d-active-tech:hover {
   color: #ffffff;
 }
+
+@media screen and (max-width: 800px) {
+  .dashboard-container {
+    position: relative;
+    height: calc(100vh - 50px);
+  }
+  .dashboard-left-container {
+    position: absolute;
+    background-color: #ffffff;
+    width: 96%;
+    border: none;
+  }
+  .ham-icon {
+    position: fixed;
+    top: 2.75%;
+    right: 4.5%;
+    padding: 2%;
+    border: 1px solid #a8a8a850;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  .dashboard-right-container {
+    width: 100%;
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .dashboard-container {
+    height: calc(100vh);
+  }
+}

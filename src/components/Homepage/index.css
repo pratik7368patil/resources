@@ -3,6 +3,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .homepage-left-container,
 .homepage-right-container {
@@ -45,4 +46,35 @@
 
 .img-responsive {
   width: 100%;
+}
+
+/* Adding for Tab and smaller devices */
+@media screen and (max-width: 800px) {
+  .homepage-left-container,
+  .homepage-right-container {
+    width: 40%;
+  }
+  .homepage-right-container {
+    padding-left: 0px;
+  }
+  .homepage-btn {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .homepage-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .homepage-left-container {
+    padding-top: 30px;
+  }
+  .homepage-left-container,
+  .homepage-right-container {
+    width: 80%;
+  }
+  .homepage-btn {
+    font-size: 2.3vw;
+  }
 }
