@@ -1,8 +1,7 @@
 import "./index.css";
 import getData from "../../data";
 import buildData from "../../utils";
-import { useState } from "react/cjs/react.development";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function Articles(props) {
   const data = getData(props.tech.id);
