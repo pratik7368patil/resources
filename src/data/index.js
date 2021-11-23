@@ -170,11 +170,16 @@ const data = [
             comp: "li",
             childs: [
               {
-                comp: "a",
+                comp: "span",
                 data: "Saurabh Shukla Youtube lectures (Hindi)",
+              },
+              {
+                comp: "a",
+                data: "Video",
                 props: {
                   href: "https://www.youtube.com/playlist?list=PLLYz8uHU480j37APNXBdPz7YzAi4XlQUF",
                   target: "_blank",
+                  className: "video",
                 },
               },
             ],
@@ -517,7 +522,442 @@ const data = [
     editor: [
       {
         comp: "h1",
-        data: "Coming Soon...",
+        data: "First Step to JavaScript",
+      },
+      {
+        comp: "ol",
+        childs: [
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Introduction",
+                props: {
+                  href: "https://www.javascripttutorial.net/what-is-javascript/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Valid JavaScript Syntax",
+                props: {
+                  href: "https://www.javascripttutorial.net/javascript-syntax/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Data Types",
+                props: {
+                  href: "https://www.javascripttutorial.net/javascript-data-types/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Variables",
+                props: {
+                  href: "https://www.javascripttutorial.net/javascript-variables/",
+                  target: "_blank",
+                },
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/watch?v=v1Q7pkcpShs",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Objects",
+                props: {
+                  href: "https://javascript.info/object",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Functions",
+              },
+              {
+                comp: "a",
+                data: "Ref. link 1",
+                props: {
+                  href: "https://javascript.info/function-basics",
+                  target: "_blank",
+                  className: "ref-link",
+                },
+              },
+              {
+                comp: "a",
+                data: "Ref. link 2",
+                props: {
+                  href: "https://javascript.info/javascript-specials",
+                  target: "_blank",
+                  className: "ref-link",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "ES6 Features",
+                props: {
+                  href: "https://devdojo.com/shreya/es6-handbook",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+        ],
+      },
+      {
+        comp: "h1",
+        data: "Important Topics",
+      },
+      {
+        comp: "ol",
+        childs: [
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "DOM : Event Delegation",
+                props: {
+                  href: "https://javascript.info/event-delegation",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "DOM : Event Propagation",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "DOM: Bubbling and Capturing",
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/watch?v=sfKDOOJgbSI",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "IIFE (Immediately invoked function expressions)",
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/watch?v=eY7u388cvM4",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "This keyword in JavaScript",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Closures",
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/watch?v=71AtaJpJHw0",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Prototypes and Inheritance",
+              },
+              {
+                comp: "a",
+                data: "Video I",
+                props: {
+                  href: "https://www.youtube.com/watch?v=7oNWNlMrkpc",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+              {
+                comp: "a",
+                data: "Video II",
+                props: {
+                  href: "https://www.youtube.com/watch?v=uIlj6_z_wL8&t=351s",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "Host objects and native objects",
+          },
+          {
+            comp: "li",
+            data: "Feature detection, feature inference, and using the UA string",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Call, Apply and Bind",
+              },
+              {
+                comp: "a",
+                data: "Video I",
+                props: {
+                  href: "https://www.youtube.com/watch?v=c0mLRpw-9rI",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+              {
+                comp: "a",
+                data: "Video II",
+                props: {
+                  href: "https://www.youtube.com/watch?v=75W8UPQ5l7k",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "Same-origin policy",
+          },
+          {
+            comp: "li",
+            data: "Mutable and Immutable objects",
+          },
+          {
+            comp: "li",
+            data: "Synchronous and Asynchronous functions",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Higher-order functions",
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/watch?v=HkWxvB1RJq0",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "Pure functions",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Promises",
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/watch?v=DHvZLI7Db8E",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+        ],
+      },
+      {
+        comp: "h2",
+        data: "Reference Links",
+      },
+      {
+        comp: "ul",
+        childs: [
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "JavaScript Road Map",
+                props: {
+                  href: "https://javascript.info/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "JavaScript Tutorial",
+                props: {
+                  href: "https://www.javascripttutorial.net/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "JavaScript Interview preperation question set",
+                props: {
+                  href: "https://docs.google.com/document/d/1JkmfHR21SOvDShLNhj1O_nJKG4JFpCMO7NiGhPMdPgE/edit?usp=sharing",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "37 Interview Questions",
+                props: {
+                  href: "https://www.toptal.com/javascript/interview-questions",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "JavaScript practice questions",
+                props: {
+                  href: "https://github.com/lydiahallie/javascript-questions",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "JavaScript playlist from Mosh",
+              },
+              {
+                comp: "a",
+                data: "Video",
+                props: {
+                  href: "https://www.youtube.com/playlist?list=PLTjRvDozrdlxEIuOBZkMAK5uiqp8rHUax",
+                  target: "_blank",
+                  className: "video",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "JavaScript interview questions from Scaler Acadamy",
+                props: {
+                  href: "https://www.interviewbit.com/javascript-interview-questions/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "JavaScript Github repos",
+                props: {
+                  href: "https://madza.hashnode.dev/21-github-repositories-to-become-a-javascript-master",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+        ],
       },
     ],
   },

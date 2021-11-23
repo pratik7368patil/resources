@@ -1,5 +1,5 @@
 .page-container {
-  height: 92.5vh;
+  height: calc(100vh - 55px);
   width: 100%;
 }
 
@@ -9,6 +9,29 @@ a {
   font-weight: bold;
 }
 
+a.video {
+  margin-left: 10px;
+  color: #ffffff;
+  background-color: red;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+/* a.video:after {
+  content: "►";
+  margin-left: 2px;
+  margin-top: auto;
+} */
+
+a.ref-link {
+  margin-left: 10px;
+  color: #ffffff;
+  background-color: #185abc;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
 @media screen and (max-width: 800px) {
   .page-container {
     height: auto;

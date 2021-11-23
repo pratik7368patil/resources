@@ -8,10 +8,13 @@ function Dashboard() {
   const [currentTech, setCurrentTech] = useState(techList[0]);
   const [showHam, setShowHam] = useState(false);
 
-  useEffect(function () {
+  function updateHam() {
     if (window.innerWidth <= 800) {
       setShowHam(true);
     }
+  }
+  useEffect(function () {
+    updateHam();
   }, []);
 
   return (
@@ -30,7 +33,7 @@ function Dashboard() {
                 key={tech.id}
                 onClick={() => {
                   setCurrentTech(tech);
-                  setShowHam(true);
+                  updateHam();
                 }}
               >
                 {tech.name}
