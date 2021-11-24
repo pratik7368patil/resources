@@ -7,10 +7,9 @@
 .dashboard-left-container {
   position: sticky;
   top: 0px;
-  width: 20%;
+  width: auto;
   height: 100%;
   padding: 2%;
-  border-right: 1px solid #a8a8a850;
   overflow-y: scroll;
 }
 .d-tech-item {
@@ -25,7 +24,7 @@
   color: #1a73e8;
 }
 .dashboard-right-container {
-  width: 80%;
+  width: auto;
   height: auto;
   padding-bottom: 5%;
 }

@@ -11,10 +11,17 @@ function Dashboard() {
   function updateHam() {
     if (window.innerWidth <= 800) {
       setShowHam(true);
+    } else {
+      setShowHam(false);
     }
   }
   useEffect(function () {
     updateHam();
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 800) {
+        updateHam();
+      }
+    });
   }, []);
 
   return (
