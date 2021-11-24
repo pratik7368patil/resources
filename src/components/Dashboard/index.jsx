@@ -18,7 +18,11 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className="dashboard-container">
+    <div
+      className={
+        !showHam ? "dashboard-container r-active" : "dashboard-container"
+      }
+    >
       {!showHam ? (
         <div className="dashboard-left-container">
           <h2 className="d-tech-head">Technologies/Topics</h2>
