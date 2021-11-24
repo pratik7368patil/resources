@@ -313,7 +313,303 @@ const data = [
     editor: [
       {
         comp: "h1",
-        data: "Coming soon...",
+        data: "Important Topics",
+      },
+      {
+        comp: "ol",
+        childs: [
+          {
+            comp: "li",
+            data: "Arrays & Strings",
+          },
+          {
+            comp: "li",
+            data: "Bit Manipulation",
+          },
+          {
+            comp: "li",
+            data: "Recursion",
+          },
+          {
+            comp: "li",
+            data: "Backtracking Intro",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Searching and Sorting Algorithms",
+              },
+              {
+                comp: "ul",
+                childs: [
+                  {
+                    comp: "li",
+                    data: "Linear Search",
+                  },
+                  {
+                    comp: "li",
+                    data: "Binary Search",
+                  },
+                  {
+                    comp: "li",
+                    data: "Bubble Sort",
+                  },
+                  {
+                    comp: "li",
+                    data: "Inserion Sort",
+                  },
+                  {
+                    comp: "li",
+                    data: "Selection Sort",
+                  },
+                  {
+                    comp: "li",
+                    data: "Quick Sort",
+                  },
+                  {
+                    comp: "li",
+                    data: "Merge Sort",
+                  },
+                  {
+                    comp: "li",
+                    data: "Heap Sort",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "Binary Search in Depth",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Map and Set",
+              },
+              {
+                comp: "ul",
+                childs: [
+                  {
+                    comp: "li",
+                    data: "HashMap",
+                  },
+                  {
+                    comp: "li",
+                    data: "TreeMap",
+                  },
+                  {
+                    comp: "li",
+                    data: "LinkedHashMap",
+                  },
+                  {
+                    comp: "li",
+                    data: "HashSet",
+                  },
+                  {
+                    comp: "li",
+                    data: "TreeSet",
+                  },
+                  {
+                    comp: "li",
+                    data: "LinkedHashSet",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "Stacks",
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Queues",
+              },
+              {
+                comp: "ul",
+                childs: [
+                  {
+                    comp: "li",
+                    data: "Priority Queues",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "span",
+                data: "Linked List (CRED)",
+              },
+              {
+                comp: "ul",
+                childs: [
+                  {
+                    comp: "li",
+                    data: "Singly Linked List",
+                  },
+                  {
+                    comp: "li",
+                    data: "Doubly Linked List",
+                  },
+                  {
+                    comp: "li",
+                    data: "Circular Linked List",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            comp: "li",
+            data: "Trees",
+          },
+          {
+            comp: "li",
+            data: "Binary Search Tree",
+          },
+          {
+            comp: "li",
+            data: "Heaps",
+          },
+          {
+            comp: "li",
+            data: "Tries",
+          },
+          {
+            comp: "li",
+            data: "Segment Tree",
+          },
+          {
+            comp: "li",
+            data: "Backtracking in Depth",
+          },
+          {
+            comp: "li",
+            data: "Dynamic Programming Intro",
+          },
+          {
+            comp: "li",
+            data: "Divide and Conquer",
+          },
+          {
+            comp: "li",
+            data: "Graph Intro",
+          },
+          {
+            comp: "li",
+            data: "Dynamic Programming in Depth",
+          },
+          {
+            comp: "li",
+            data: "Graph in Depth",
+          },
+          {
+            comp: "li",
+            data: "Greedy in Depth",
+          },
+          {
+            comp: "li",
+            data: "Questions on DP and Graph mixed (Graph + DP + algo)",
+          },
+        ],
+      },
+      {
+        comp: "h1",
+        data: "Useful Links",
+      },
+      {
+        comp: "ul",
+        childs: [
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Personal Blog (Hack Your Code)",
+                props: {
+                  href: "https://hackyourcode.blogspot.com/",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Problem Solving 30 days coding challenge",
+                props: {
+                  href: "https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit?usp=sharing",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Mock Questions",
+                props: {
+                  href: "https://docs.google.com/document/d/1w0ctrrjazxwyz4aecRMZfuwRvuwr4UAdvzuK7Ro9RMI/edit?usp=sharing",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "500 Data Structure Questions",
+                props: {
+                  href: "https://blog.usejournal.com/500-data-structures-and-algorithms-practice-problems-35afe8a1e222?gi=5411c5e2cf14",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "Leetcode resources link",
+                props: {
+                  href: "https://docs.google.com/document/d/11Jy_i_NKVYUcJevgfrdct4GhF8H8Wpboz3JRiimub0U/edit",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+          {
+            comp: "li",
+            childs: [
+              {
+                comp: "a",
+                data: "#60DaysRiseUpChallenge",
+                props: {
+                  href: "https://docs.google.com/spreadsheets/d/1BJdGYn8WkI0mE3aNrnPvp5fPIBB-7eRG1KZuguLQZdI/edit#gid=0",
+                  target: "_blank",
+                },
+              },
+            ],
+          },
+        ],
       },
     ],
   },
