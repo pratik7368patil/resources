@@ -8,3 +8,9 @@
   font-weight: bold;
   color: gray;
 }
+
+@media screen and (max-width: 800px) {
+  .article-container {
+    border-left: none;
+  }
+}
