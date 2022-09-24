@@ -1,22 +1,21 @@
 import "./index.css";
-import posts from "./../../assets/posts.svg";
 import { useNavigate } from "react-router-dom";
 
 function Homepage() {
   const navigate = useNavigate();
   return (
     <div className="homepage-container">
-      <div className="homepage-left-container">
-        <h1 className="homepage-head">Best place to start your journey</h1>
+      <div className="homepage">
+        <h1 className="homepage-head">
+          A journey of a thousand miles begins with a single step
+        </h1>
         <p className="homepage-para">
-          Enjoy free leaning resources of the technologies. 🔥
+          Learn coding by reading articles and watching free videos on the
+          internet 🔥
         </p>
         <button onClick={() => navigate("/resources")} className="homepage-btn">
           Get Started
         </button>
-      </div>
-      <div className="homepage-right-container">
-        <img className="img-responsive" src={posts} alt="illustration" />
       </div>
     </div>
   );

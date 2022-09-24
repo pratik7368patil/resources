@@ -1,8 +1,6 @@
 .article-container {
-  width: 96%;
-  height: 100%;
-  padding: 2% 10%;
-  border-left: 1px solid #a8a8a850;
+  width: calc(100% - 1rem);
+  padding: 2% 0.5rem;
 }
 .res-heading {
   font-weight: bold;
